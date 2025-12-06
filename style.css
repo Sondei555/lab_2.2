@@ -1,0 +1,139 @@
+.table1, .table2, .table3, .table4, .table5 {
+    border-collapse: separate;
+    margin: 20px auto;
+}
+
+table.table1 {
+    width: 40%;
+    height: 200px;
+    border: 3px solid #800080; 
+}
+
+table.table1 td {
+    border: 1px solid #800080;
+    padding: 5px;
+}
+
+.table1 .col1 {
+    width: 150px; 
+}
+
+.table1 .row2 {
+    height: 150px;
+}
+
+table.table2 {
+    width: 20%;
+    border-spacing: 5%; 
+    border: 3px solid #2e8b57; 
+}
+
+table.table2 td {
+    border: 1px solid #2e8b57; 
+    padding: 5px;
+    text-align: center;
+}
+
+table.table3 {
+    width: 30%;
+    border-spacing: 20%; 
+    border: 3px solid #d9534f; 
+}
+
+table.table3 td {
+    border: 1px solid #d9534f; 
+    padding: 5px;
+}
+
+table.table4 {
+    width: 40%;
+    border-spacing: 30%; 
+    border: 3px solid #5bc0de; 
+}
+
+table.table4 td {
+    border: 1px solid #5bc0de; 
+    padding: 5px;
+}
+
+table.table5 {
+    width: 50%;
+    border-spacing: 0;
+    border: 1px solid black;
+    border-collapse: collapse; 
+}
+
+table.table5 td {
+    padding: 10%; 
+    border: 1px solid black;
+    text-align: center;
+    font-weight: bold;
+}
+
+table.table5 tr:first-child td {
+    background-color: #d9e6e0; 
+}
+
+table.table5 tr:nth-child(2) td:nth-child(-n+3) {
+    background-color: #f7d2e0; 
+}
+
+table.table6 {
+    width: 30%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+table.table6 td, table.table6 th {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+table.table6 tr:first-child td {
+    background-color: #add8e6; 
+    font-weight: bold;
+}
+
+table.table8 {
+    width: 70%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    border: 1px solid black;
+}
+
+table.table8 td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+table.table7-container {
+    width: 100%;
+    border: none;
+    border-collapse: separate;
+}
+
+table.table7-container td {
+    border: none;
+    padding: 10px;
+    vertical-align: top;
+}
+
+.table7a, .table7b {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table7a td, .table7b td {
+    border: 1px solid blue;
+    padding: 3px;
+    text-align: center;
+}
+
+.table7a {
+    border: 3px solid blue;
+}
+
+.table7b {
+    border: 3px solid magenta;
+}
